@@ -10,10 +10,9 @@ export const siteConfig = {
 export const navLinks = [
   { label: "Home", href: "/" },
   { label: "Work Packages", href: "/#work-packages" },
-  { label: "Publications", href: "/publications" },
   { label: "Team", href: "/#team" },
   { label: "Funding & Partners", href: "/#funding-partners" },
-  { label: "Contact", href: "/contact" },
+  { label: "Publications", href: "/publications" },
   { label: "Events & Talks", href: "/events-talks" },
 ];
 

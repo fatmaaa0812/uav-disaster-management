@@ -29,7 +29,7 @@ export function MotivationSection() {
           <video
             controls
             className="h-full w-full rounded-3xl object-cover"
-            preload="metadata"
+            preload="none"
           >
             <source src="/videos/project-motivation.mp4" type="video/mp4" />
             Your browser does not support the video tag.

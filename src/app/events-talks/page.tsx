@@ -22,20 +22,35 @@ export default function EventsTalksPage() {
               key={item.title}
               className="border-b border-slate-200 py-10 first:pt-0 last:border-b-0"
             >
-              <h2 className="text-2xl font-semibold text-slate-900">
-                {item.title}
-              </h2>
+              <div className="flex items-start gap-3">
+
+                <div className="mt-2 h-2.5 w-2.5 rotate-45 bg-orange-500" />
+
+                <h2 className="text-2xl font-semibold text-slate-900">
+                  {item.title}
+                </h2>
+
+              </div>
 
               <div className="mt-4 flex flex-wrap gap-x-8 gap-y-2 text-sm text-slate-600">
-                <p>
-                  <span className="font-medium text-slate-900">Done by:</span>{" "}
-                  {item.presenter}
-                </p>
+               <div className="mt-4 flex flex-wrap gap-6 text-sm text-slate-600">
 
-                <p>
-                  <span className="font-medium text-slate-900">Date:</span>{" "}
-                  {item.date}
-                </p>
+                  <p>
+                    <span className="font-medium text-slate-900">Event:</span>{" "}
+                    {item.event}
+                  </p>
+
+                  <p>
+                    <span className="font-medium text-slate-900">Date:</span>{" "}
+                    {item.date}
+                  </p>
+
+                  <p>
+                    <span className="font-medium text-slate-900">Presenter:</span>{" "}
+                    {item.presenter}
+                  </p>
+
+                </div>
               </div>
 
               <div className="mt-6 flex flex-wrap gap-3">

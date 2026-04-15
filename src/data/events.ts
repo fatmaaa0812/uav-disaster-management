@@ -2,7 +2,8 @@ export const eventsAndTalks = [
   {
     title: "Distributed Network Inference for Tiny Robots and IoT",
     presenter: "Prof. Amr Mohamed",
-    date: "MWC Doha 2025",
+    event: "MWC Doha",
+    date: "25–26 November 2025",
 
     slidesPdf: "/slides/futuristic-ai-based-networks.pdf",
 

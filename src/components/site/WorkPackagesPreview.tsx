@@ -11,15 +11,18 @@ export function WorkPackagesPreview() {
         description="The project is structured around four connected work packages spanning system architecture, AI-based sensing and navigation, secure communication, and deployment-focused validation."
       />
 
-      <div className="mt-10 grid gap-6 md:grid-cols-2">
+      <div className="mt-8 grid gap-8 md:grid-cols-2">
+
         {workPackages.map((wp) => (
           <WorkPackageCard
-            key={wp.id}
+            key={wp.title}
             title={wp.title}
             description={wp.description}
             href={wp.href}
+            icon={wp.icon}
           />
         ))}
+
       </div>
     </section>
   );

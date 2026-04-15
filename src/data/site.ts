@@ -42,6 +42,7 @@ export const workPackages = [
     description:
       "System architecture, mission planning, coordinated task allocation, adaptive redeployment, and mission-lifetime support.",
     href: "/work-packages/wp1",
+    icon: "/logos/wp1.png",
   },
   {
     id: "wp2",
@@ -49,6 +50,7 @@ export const workPackages = [
     description:
       "Human detection under rubble, multimodal sensing, reinforcement learning, online learning, and obstacle-aware navigation.",
     href: "/work-packages/wp2",
+    icon: "/logos/wp2.jpg",
   },
   {
     id: "wp3",
@@ -56,6 +58,7 @@ export const workPackages = [
     description:
       "Mobility-aware secure communication, resilient UAV networking, and robust group coordination in dynamic environments.",
     href: "/work-packages/wp3",
+    icon: "/logos/wp3.png",
   },
   {
     id: "wp4",
@@ -63,6 +66,7 @@ export const workPackages = [
     description:
       "Digital twin simulation, drone assembly, sensor integration, prototype development, and field testing.",
     href: "/work-packages/wp4",
+    icon: "/logos/wp4.png",
   },
 ];
 

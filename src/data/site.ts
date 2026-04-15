@@ -13,6 +13,7 @@ export const navLinks = [
   { label: "Team", href: "/#team" },
   { label: "Funding & Partners", href: "/#funding-partners" },
   { label: "Publications", href: "/publications" },
+  { label: "Patents", href: "/patents" },
   { label: "Events & Talks", href: "/events-talks" },
 ];
 
@@ -140,20 +141,7 @@ export const teamMembersHome = [
     image: "/images/team-ali.jpg",
     href: "https://scholar.google.com/citations?user=DRvHa9wAAAAJ&hl=en",
   },
-  {
-    name: "Malek Chabbou",
-    role: "Research Assistant",
-    group: "Researchers & Postdoc",
-    image: "/images/team-malek.jpg",
-    href: "#",
-  },
-  {
-    name: "Mohammad Hilou",
-    role: "Research Assistant",
-    group: "Researchers & Postdoc",
-    image: "/images/team-mohammed-hilou.jpg",
-    href: "https://www.researchgate.net/scientific-contributions/Mohammad-Hilou-2339033903",
-  },
+  
   {
     name: "MHD Saria Allahham",
     role: "Research Assistant",
@@ -168,6 +156,14 @@ export const teamMembersHome = [
     image: "/images/team-noor.jpg",
     href: "https://scholar.google.com/citations?user=0_2BjTIAAAAJ&hl=en",
   },
+    {
+    name: "Zaineh Abughazzah",
+    role: "Researcher",
+    group: "Researchers & Postdoc",
+    image: "/images/team-zaineh.jpg",
+    href: "https://scholar.google.com/citations?user=dbA33U0AAAAJ&hl=en",
+  },
+
   {
     name: "Ahmed Riahi",
     role: "Researcher",
@@ -183,19 +179,28 @@ export const teamMembersHome = [
     image: "/images/team-nema.jpg",
     href: "https://scholar.google.com/citations?user=qEYla5sAAAAJ&hl=en",
   },
-  {
-    name: "Zaineh Abughazzah",
-    role: "MS Student",
-    group: "Graduate Students",
-    image: "/images/team-zaineh.jpg",
-    href: "https://scholar.google.com/citations?user=dbA33U0AAAAJ&hl=en",
-  },
+
   {
     name: "FatemaElzahraa Elrotel",
     role: "MS Student ",
     group: "Graduate Students",
     image: "/images/team-fatema.jpg",
     href: "#",
+  },
+
+  {
+    name: "Malek Chabbou",
+    role: "MS Student",
+    group: "Graduate Students",
+    image: "/images/team-malek.jpg",
+    href: "#",
+  },
+  {
+    name: "Mohammad Hilou",
+    role: "MS Student",
+    group: "Graduate Students",
+    image: "/images/team-mohammed-hilou.jpg",
+    href: "https://www.researchgate.net/scientific-contributions/Mohammad-Hilou-2339033903",
   },
 
   {

@@ -53,7 +53,7 @@ export function Navbar() {
 
       {isOpen ? (
         <div className="border-t border-slate-200 bg-white lg:hidden">
-          <nav className="mx-auto flex max-w-7xl flex-col px-6 py-4 lg:px-8">
+          <nav className="mx-auto flex max-w-7xl flex-col px-6 py-1 lg:px-8">
             {navLinks.map((link) => (
               <Link
                 key={link.label}

@@ -20,9 +20,12 @@ export default function PublicationsPage() {
 
       <section className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
         <div className="max-w-5xl">
-          <h2 className="text-2xl font-semibold text-slate-900">
-            Journal Papers
-          </h2>
+          <div className="flex items-center gap-3">
+            <div className="h-1 w-10 rounded-full bg-orange-500" />
+            <h2 className="text-lg font-semibold uppercase tracking-[0.12em] text-slate-700">
+              Journal Papers
+            </h2>
+          </div>
 
           <div className="mt-6">
             {journalPublications.map((paper) => (
@@ -34,9 +37,12 @@ export default function PublicationsPage() {
 
       <section className="mx-auto max-w-7xl px-6 pb-16 lg:px-8">
         <div className="max-w-5xl">
-          <h2 className="text-2xl font-semibold text-slate-900">
-            Conference Papers
-          </h2>
+          <div className="flex items-center gap-3">
+            <div className="h-1 w-10 rounded-full bg-orange-500" />
+            <h2 className="text-lg font-semibold uppercase tracking-[0.12em] text-slate-700">
+              Conference Papers
+            </h2>
+          </div>
 
           <div className="mt-6">
             {conferencePublications.map((paper) => (

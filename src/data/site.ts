@@ -148,7 +148,7 @@ export const teamMembersHome = [
   
   {
     name: "MHD Saria Allahham",
-    role: "Research Assistant",
+    role: "Researcher",
     group: "Researchers & Postdoc",
     image: "/images/team-mhd-sarla.jpg",
     href: "https://scholar.google.com/citations?user=2Sht7H0AAAAJ&hl=en",
@@ -157,7 +157,7 @@ export const teamMembersHome = [
     name: "Noor Khial",
     role: "Researcher – Sensing and Obstacle Avoidance",
     group: "Researchers & Postdoc",
-    image: "/images/team-noor.jpg",
+    image: "/images/team-noor.jpeg",
     href: "https://scholar.google.com/citations?user=0_2BjTIAAAAJ&hl=en",
   },
     {
@@ -208,7 +208,7 @@ export const teamMembersHome = [
   },
 
   {
-    name: "Abdelrahman Gamal",
+    name: "Abdelrahman Abdou",
     role: "Undergraduate Student",
     group: "Undergraduate Student",
     image: "/images/team-abdelrahman.jpg",

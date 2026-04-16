@@ -1,6 +1,16 @@
 export const journalPublications = [
   {
     title:
+      "DRONE-RL: Dynamic reinforcement learning for online navigation of UAVs in evolving environments",
+    authors:
+      "N. Khial, M. S. Allahham, N. Mhaisen, L. Ismail, M. Mabrok, A. Mohamed",
+    venue:
+      "Knowledge-Based Systems",
+    year: 2026,
+    link: "https://www.sciencedirect.com/science/article/pii/S095070512502180X",
+  },
+  {
+    title:
       "PDSR: Efficient UAV deployment for swift and accurate post-disaster search and rescue",
     authors:
       "A. Abdellatif, A. Elmancy, A. Mohamed, A. Massoud, W. Lebda, K. Naji",
@@ -11,26 +21,36 @@ export const journalPublications = [
   },
   {
     title:
+      "Slicing for AI: An online learning framework for network slicing supporting AI services",
+    authors:
+      "M. Helmy, A. Abdellatif, N. Mhaisen, A. Mohamed, A. Erbad",
+    venue:
+      "IEEE Transactions on Network and Service Management",
+    year: 2025,
+    link: "https://ieeexplore.ieee.org/document/11142858",
+  },
+  {
+    title:
       "An online learning framework for UAV search mission in adversarial environments",
     authors:
       "N. Khial, N. Mhaisen, M. Mabrok, A. Mohamed",
     venue:
       "Expert Systems with Applications",
     year: 2025,
-    link: "https://www.sciencedirect.com/science/article/pii/S0957417424030033?casa_token=hWiamDKnaHIAAAAA:k3NgTc1WNboh4t20cYX2gqwFO0sNJoWj6C9hWLeT5IAO6Dm9373EhtTmrvzYczbG--fjbQbLiXs",
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0957417424030033",
   },
 ];
 
 export const conferencePublications = [
   {
     title:
-      "Maximizing Mission Success: Optimized Drone Assignments in Multi-UAV Search Operations",
+      "Obstacle-Aware Human Localization via Channel Impulse Response",
     authors:
-      "A. Abdellatif, A. Mohamed",
+      "N. Qassmi, M. Hilou, M. S. Allahham, A. Mohamed, L. Ismail",
     venue:
-      "IEEE International Conference on Communications (ICC)",
-    year: 2025,
-    link: "https://ieeexplore.ieee.org/abstract/document/11161151",
+      "IEEE 23rd Consumer Communications & Networking Conference (CCNC)",
+    year: 2026,
+    link: "https://doi.org/10.1109/CCNC65079.2026.11366405",
   },
   {
     title:
@@ -40,7 +60,7 @@ export const conferencePublications = [
     venue:
       "IEEE International Conference on Communications (ICC)",
     year: 2025,
-    link: "https://ieeexplore.ieee.org/abstract/document/11161388",
+    link: "https://ieeexplore.ieee.org/document/11161388",
   },
   {
     title:
@@ -70,6 +90,6 @@ export const conferencePublications = [
     venue:
       "IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)",
     year: 2024,
-    link: "https://ieeexplore.ieee.org/abstract/document/10667171",
+    link: "https://ieeexplore.ieee.org/document/10667171",
   },
 ];

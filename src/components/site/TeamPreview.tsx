@@ -36,7 +36,7 @@ export function TeamPreview() {
   const otherGroups = grouped.filter((section) => section.group !== "Leadership");
 
   return (
-    <section id="team" className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
+    <section id="team" className="mx-auto max-w-7xl px-6 py-10 lg:px-8">
       <SectionHeader
         eyebrow="Team"
         title="Project team"

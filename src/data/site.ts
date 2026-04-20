@@ -14,7 +14,7 @@ export const navLinks = [
   { label: "Funding & Partners", href: "/#funding-partners" },
   { label: "Publications", href: "/publications" },
   { label: "Patents", href: "/patents" },
-  { label: "Events & Talks", href: "/events-talks" },
+  { label:"Projects & Presentations", href: "/projects" },
 ];
 
 export const overviewHighlights = [
@@ -210,7 +210,38 @@ export const teamMembersHome = [
   {
     name: "Abdelrahman Abdou",
     role: "Undergraduate Student",
-    group: "Undergraduate Student",
+    group: "Undergraduate Students",
+    image: "/images/team-abdelrahman.jpg",
+    href: "#",
+  },
+
+  {
+    name: "Jeham Al-Kuwari",
+    role: "Undergraduate Student",
+    group: "Undergraduate Students",
+    image: "/images/team-abdelrahman.jpg",
+    href: "#",
+  },
+
+  {
+    name: "Sultan Al-Harami",
+    role: "Undergraduate Student",
+    group: "Undergraduate Students",
+    image: "/images/team-abdelrahman.jpg",
+    href: "#",
+  },
+
+  {
+    name: "Turki Al-Ahzam",
+    role: "Undergraduate Student",
+    group: "Undergraduate Students",
+    image: "/images/team-abdelrahman.jpg",
+    href: "#",
+  },
+  {
+    name: "Mohammed Al-Sada",
+    role: "Undergraduate Student",
+    group: "Undergraduate Students",
     image: "/images/team-abdelrahman.jpg",
     href: "#",
   },

@@ -6,6 +6,7 @@ type WorkItem = {
   description: string;
   imageSrc?: string;
   videoSrc?: string;
+  isEmbeddedVideo?: boolean;
 };
 
 type WorkPackageDetailProps = {
@@ -136,17 +137,36 @@ export function WorkPackageDetail({
                     ) : null}
 
                     {item.videoSrc ? (
-                      <div className="mt-6 overflow-hidden rounded-3xl border border-slate-200 bg-slate-950 shadow-sm">
-                        <video
-                          controls
-                          preload="metadata"
-                          className="h-[260px] w-full rounded-3xl object-contain md:h-[360px]"
-                        >
-                          <source src={item.videoSrc} type="video/mp4" />
-                          Your browser does not support the video tag.
-                        </video>
-                      </div>
-                    ) : null}
+  <div className="mt-6 mx-auto max-w-3xl overflow-hidden rounded-3xl border border-slate-200 shadow-sm">
+
+    {item.isEmbeddedVideo ? (
+
+      <div className="relative w-full pb-[56.25%]">
+
+        <iframe
+          src={`${item.videoSrc}?vq=hd1080`}
+          title={item.title}
+          className="absolute inset-0 h-full w-full border-0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+
+      </div>
+
+    ) : (
+
+      <video
+        controls
+        preload="metadata"
+        className="h-[260px] w-full object-contain md:h-[360px]"
+      >
+        <source src={item.videoSrc} type="video/mp4" />
+      </video>
+
+    )}
+
+  </div>
+) : null}
                   </div>
 
                   {index < workItems.length - 1 ? (

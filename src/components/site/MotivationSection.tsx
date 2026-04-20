@@ -1,4 +1,6 @@
 import { SectionHeader } from "@/components/site/SectionHeader";
+import { EmbeddedVideo } from "@/components/site/EmbeddedVideo";
+
 
 export function MotivationSection() {
   return (
@@ -29,7 +31,7 @@ export function MotivationSection() {
           <video
             controls
             className="h-full w-full rounded-3xl object-cover"
-            preload="none"
+            preload="metadata"
           >
             <source src="/videos/project-motivation.mp4" type="video/mp4" />
             Your browser does not support the video tag.

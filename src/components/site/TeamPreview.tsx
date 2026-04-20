@@ -10,7 +10,7 @@ const groupOrder = [
   "Leadership",
   "Researchers & Postdoc",
   "Graduate Students",
-  "Undergraduate Student",
+  "Undergraduate Students",
   "Collaborators",
 ];
 

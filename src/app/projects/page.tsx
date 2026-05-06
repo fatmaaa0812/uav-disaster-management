@@ -314,7 +314,7 @@ export default function ProjectsPage() {
                   preload="metadata"
                   className="h-[220px] w-full object-contain md:h-[300px]"
                 >
-                  <source src="/videos/ProjectS252629-PoCDemoVideo.mp4" type="video/mp4" />
+                  <source src="/videos/ProjectS252629-PitchingVideo.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>

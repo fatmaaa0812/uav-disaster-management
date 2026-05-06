@@ -101,7 +101,7 @@ export default function ProjectsPage() {
             </div>
 
             <SlidesViewer
-              title="Distributed Network Inference for Tiny Robots and IoT"
+              title="Futuristic AI-Based Networks"
               slides={[
                 "/slides/mwc/1.png",
                 "/slides/mwc/2.png",

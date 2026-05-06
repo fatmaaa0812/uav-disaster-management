@@ -70,7 +70,7 @@ export default function ProjectsPage() {
             <div className="flex items-start gap-3">
               <div className="mt-2 h-2.5 w-2.5 rotate-45 bg-orange-500" />
               <h3 className="text-2xl font-semibold text-slate-900">
-                Distributed Network Inference for Tiny Robots and IoT
+                Futuristic AI-Based Networks
               </h3>
             </div>
 

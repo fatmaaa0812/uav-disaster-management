@@ -305,7 +305,7 @@ export default function ProjectsPage() {
 
             <div className="mt-8">
               <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-orange-500">
-                Motivation Video
+                Pitching Video
               </p>
 
               <div className="mx-auto max-w-3xl overflow-hidden rounded-3xl border border-slate-200 shadow-sm">

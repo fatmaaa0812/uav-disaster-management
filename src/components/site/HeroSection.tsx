@@ -25,21 +25,23 @@ export function HeroSection() {
               href="https://www.qrdi.org.qa/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex max-w-full items-center gap-2 rounded-full border border-white bg-white px-4 py-1 text-sm font-semibold text-slate-900 shadow-lg ring-2 ring-orange-400/70 transition hover:-translate-y-0.5 hover:shadow-xl hover:ring-orange-500"
+              className="inline-flex max-w-full items-center gap-2 rounded-full border border-orange-300/70 bg-white/15 py-1 pl-1.5 pr-4 text-sm font-semibold text-white shadow-lg backdrop-blur transition hover:-translate-y-0.5 hover:border-orange-400 hover:bg-white/25 hover:shadow-xl"
             >
-              <Image
-                src="/logos/qrdi.png"
-                alt="QRDI logo"
-                width={458}
-                height={502}
-                className="h-5 w-auto shrink-0"
-              />
+              <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center overflow-hidden rounded-full bg-white">
+                <Image
+                  src="/logos/qrdi.png"
+                  alt="QRDI logo"
+                  width={458}
+                  height={502}
+                  className="h-4 w-auto"
+                />
+              </span>
               <span className="sm:hidden">Funded by QRDI</span>
               <span className="hidden sm:inline">
                 Funded by the Qatar Research, Development and Innovation Council
                 (QRDI)
               </span>
-              <span aria-hidden="true" className="shrink-0 text-orange-500">
+              <span aria-hidden="true" className="shrink-0 text-orange-300">
                 ↗
               </span>
             </a>

@@ -3,7 +3,7 @@ import { overviewHighlights, siteConfig } from "@/data/site";
 
 export function OverviewSection() {
   return (
-    <section id="overview" className="bg-slate-50/80 pt-10 pb-14">
+    <section id="overview" className="bg-gradient-to-b from-slate-50 to-white py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid items-start gap-12 lg:grid-cols-2">
           <SectionHeader

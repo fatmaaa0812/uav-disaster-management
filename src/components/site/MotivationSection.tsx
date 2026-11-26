@@ -3,7 +3,7 @@ import { SectionHeader } from "@/components/site/SectionHeader";
 
 export function MotivationSection() {
   return (
-    <section id="motivation" className="mx-auto max-w-7xl px-6 pt-14 pb-8 lg:px-8">
+    <section id="motivation" className="mx-auto max-w-7xl px-6 pt-14 pb-16 lg:px-8">
       <div className="grid items-center gap-10 lg:grid-cols-2">
         <div>
           <SectionHeader

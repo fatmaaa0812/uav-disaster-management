@@ -15,7 +15,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/logos/drone-logo.jpg"
-            alt="PervasiveAeroAgents logo"
+            alt="Life Radar logo"
             width={72}
             height={72}
             className="h-16 w-16 object-contain"

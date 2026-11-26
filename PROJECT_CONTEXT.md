@@ -1,8 +1,8 @@
 Project Title:
-PervasiveAeroAgents: Empowering Resilient, Smart, and Secure Post-Disaster Management
+Life Radar: Empowering Resilient, Smart, and Secure Post-Disaster Management
 
 Short Public Title:
-PervasiveAeroAgents
+Life Radar
 
 Short Tagline:
 Smart Multi-Drone Systems for Post-Disaster Response
@@ -14,7 +14,7 @@ Lead PI:
 Prof. Amr Mohamed
 
 Project Overview:
-PervasiveAeroAgents develops intelligent multi-drone systems for post-disaster response by combining AI, multimodal sensing, secure communication, and proof-of-concept deployment. The project supports search and rescue through coordinated UAV swarms capable of victim detection, autonomous navigation, and resilient operation in complex environments.
+Life Radar develops intelligent multi-drone systems for post-disaster response by combining AI, multimodal sensing, secure communication, and proof-of-concept deployment. The project supports search and rescue through coordinated UAV swarms capable of victim detection, autonomous navigation, and resilient operation in complex environments.
 
 Main Objectives:
 - Develop a multi-drone swarm system for coordinated post-disaster operations

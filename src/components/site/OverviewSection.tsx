@@ -3,7 +3,7 @@ import { overviewHighlights, siteConfig } from "@/data/site";
 
 export function OverviewSection() {
   return (
-    <section id="overview" className="bg-slate-50/80 py-14">
+    <section id="overview" className="bg-slate-50/80 pt-10 pb-14">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <SectionHeader
           eyebrow="Project Overview"

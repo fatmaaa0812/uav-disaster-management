@@ -41,7 +41,7 @@ export function Footer() {
         <div className="mx-auto flex max-w-7xl flex-col gap-1 px-6 py-3 text-xs text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           
           <p>
-            © {new Date().getFullYear()} PervasiveAeroAgents
+            © {new Date().getFullYear()} Life Radar
           </p>
 
           <p>

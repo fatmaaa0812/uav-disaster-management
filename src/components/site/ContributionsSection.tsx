@@ -8,7 +8,7 @@ export function ContributionsSection() {
         <SectionHeader
           eyebrow="Key Contributions"
           title="Core technical directions of the project"
-          description="PervasiveAeroAgents brings together system-level coordination, AI-based autonomy, sensing, communication, and deployment into one coherent post-disaster research platform."
+          description="Life Radar brings together system-level coordination, AI-based autonomy, sensing, communication, and deployment into one coherent post-disaster research platform."
         />
 
         <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">

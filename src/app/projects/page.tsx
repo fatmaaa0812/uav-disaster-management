@@ -1,6 +1,18 @@
 import { SectionHeader } from "@/components/site/SectionHeader";
 import { SlidesViewer } from "@/components/site/SlidesViewer";
 
+const seniorProjectPrism = {
+  title:
+    "PRISM: Passive RF, Imaging, Sensor-fusion Model for Disaster Management",
+  students: "Aya Zayyan, Yasmeen Eldeeb, Hoor Moustafa, Rawan Mohamed",
+  videoUrl: "https://www.youtube.com/embed/bfJufcEamIQ?si=cZOClRJgyOTNraNZ",
+  pdf: "/slides/ProjectS262601-FinalPresentation.pdf",
+  slideImages: Array.from(
+    { length: 32 },
+    (_, i) => `/slides/prism/${i + 1}.jpg`,
+  ),
+};
+
 const seniorProject2 = {
   title: "RESCUE: Radar-based Emergency Swarm for Critical Under-rubble Estimation",
   subtitle:
@@ -177,8 +189,77 @@ export default function ProjectsPage() {
             </h2>
           </div>
 
-          {/* Senior Project 1 */}
+          {/* Senior Project: PRISM (2026) */}
           <div className="mt-8 border-b border-slate-200 py-10">
+            <div className="flex items-start gap-3">
+              <div className="mt-2 h-2.5 w-2.5 rotate-45 bg-orange-500" />
+              <h3 className="text-2xl font-semibold text-slate-900">
+                {seniorProjectPrism.title}
+              </h3>
+            </div>
+
+            <div className="mt-5 flex flex-wrap gap-x-8 gap-y-2 text-sm text-slate-600">
+              <p>
+                <span className="font-medium text-slate-900">Institution:</span>{" "}
+                Qatar University
+              </p>
+              <p>
+                <span className="font-medium text-slate-900">Year:</span> 2026
+              </p>
+              <p>
+                <span className="font-medium text-slate-900">Supervisor:</span>{" "}
+                Prof. Amr Mohamed
+              </p>
+              <p className="basis-full">
+                <span className="font-medium text-slate-900">Students:</span>{" "}
+                {seniorProjectPrism.students}
+              </p>
+            </div>
+
+            <div className="mt-8">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-orange-500">
+                Video
+              </p>
+
+              <div className="mx-auto max-w-3xl overflow-hidden rounded-3xl border border-slate-200 shadow-sm">
+                <div className="relative w-full pb-[56.25%]">
+                  <iframe
+                    src={seniorProjectPrism.videoUrl}
+                    title={seniorProjectPrism.title}
+                    className="absolute inset-0 h-full w-full border-0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-10">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-orange-500">
+                Final Presentation
+              </p>
+
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href={seniorProjectPrism.pdf}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center rounded-full border border-orange-200 bg-orange-50 px-4 py-2 text-sm font-medium text-orange-600 transition hover:border-orange-500 hover:bg-orange-500 hover:text-white"
+                >
+                  Open slides PDF
+                </a>
+              </div>
+
+              <SlidesViewer
+                title={seniorProjectPrism.title}
+                slides={seniorProjectPrism.slideImages}
+              />
+            </div>
+          </div>
+
+          {/* Senior Project 1 */}
+          <div className="border-b border-slate-200 py-10">
             <div className="flex items-start gap-3">
               <div className="mt-2 h-2.5 w-2.5 rotate-45 bg-orange-500" />
               <h3 className="text-2xl font-semibold text-slate-900">

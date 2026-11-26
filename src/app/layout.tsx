@@ -4,7 +4,7 @@ import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 
 export const metadata: Metadata = {
-  title: "PervasiveAeroAgents",
+  title: "Life Radar",
   description:
     "Smart multi-drone systems for post-disaster response, combining AI, multimodal sensing, secure communication, and prototype deployment.",
 };

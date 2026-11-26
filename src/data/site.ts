@@ -1,10 +1,10 @@
 export const siteConfig = {
-  title: "PervasiveAeroAgents",
+  title: "Life Radar",
   fullTitle:
-    "PervasiveAeroAgents: Empowering Resilient, Smart, and Secure Post-Disaster Management",
+    "Life Radar: Empowering Resilient, Smart, and Secure Post-Disaster Management",
   tagline: "Smart Multi-Drone Systems for Post-Disaster Response",
   overview:
-    "PervasiveAeroAgents develops intelligent multi-drone systems for post-disaster response by combining AI, multimodal sensing, secure communication, and proof-of-concept deployment. The project supports search and rescue through coordinated UAV swarms capable of victim detection, autonomous navigation, and resilient operation in complex environments.",
+    "Life Radar develops intelligent multi-drone systems for post-disaster response by combining AI, multimodal sensing, secure communication, and proof-of-concept deployment. The project supports search and rescue through coordinated UAV swarms capable of victim detection, autonomous navigation, and resilient operation in complex environments.",
 };
 
 export const navLinks = [
@@ -208,6 +208,35 @@ export const teamMembersHome = [
   },
 
   {
+    name: "Aya Zayyan",
+    role: "Undergraduate Student",
+    group: "Undergraduate Students",
+    image: "/images/team-nema.jpg",
+    href: "#",
+  },
+  {
+    name: "Yasmeen Eldeeb",
+    role: "Undergraduate Student",
+    group: "Undergraduate Students",
+    image: "/images/team-fatema.jpg",
+    href: "#",
+  },
+  {
+    name: "Hoor Moustafa",
+    role: "Undergraduate Student",
+    group: "Undergraduate Students",
+    image: "/images/team-nema.jpg",
+    href: "#",
+  },
+  {
+    name: "Rawan Mohamed",
+    role: "Undergraduate Student",
+    group: "Undergraduate Students",
+    image: "/images/team-fatema.jpg",
+    href: "#",
+  },
+
+  {
     name: "Abdelrahman Abdou",
     role: "Undergraduate Student",
     group: "Undergraduate Students",
@@ -317,7 +346,7 @@ export const workPackageDetails = [
     image: "/images/wp1-methodology.jpg",
     methodologyTitle: "Methodology",
     summary:
-      "WP1 establishes the architectural foundation of the PervasiveAeroAgents platform, covering multi-drone coordination, mission planning, adaptive task allocation, and mission-lifetime support for post-disaster operations.",
+      "WP1 establishes the architectural foundation of the Life Radar platform, covering multi-drone coordination, mission planning, adaptive task allocation, and mission-lifetime support for post-disaster operations.",
     overview:
       "This work package focuses on the system-level design of the multi-drone platform. It addresses how UAVs are coordinated as a swarm, how tasks are distributed, how path planning adapts to evolving disaster conditions, and how operational continuity can be supported through coordinated charging and efficient resource use.",
     focusAreas: [

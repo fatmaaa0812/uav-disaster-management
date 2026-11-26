@@ -10,7 +10,7 @@ export default function WorkPackagesPage() {
           <SectionHeader
             eyebrow="Work Packages"
             title="Four connected research streams powering the project"
-            description="PervasiveAeroAgents is structured around four work packages covering system architecture, AI-based sensing and navigation, secure communication, and prototype-driven validation. Together, they form an end-to-end platform for intelligent post-disaster drone operations."
+            description="Life Radar is structured around four work packages covering system architecture, AI-based sensing and navigation, secure communication, and prototype-driven validation. Together, they form an end-to-end platform for intelligent post-disaster drone operations."
           />
         </div>
       </section>

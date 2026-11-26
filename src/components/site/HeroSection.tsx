@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/data/site";
 
@@ -24,12 +25,22 @@ export function HeroSection() {
               href="https://www.qrdi.org.qa/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex max-w-full rounded-full border border-white/30 bg-white/10 px-4 py-1 text-sm font-medium text-white backdrop-blur transition hover:bg-white/20"
+              className="inline-flex max-w-full items-center gap-2 rounded-full border border-white bg-white px-4 py-1 text-sm font-semibold text-slate-900 shadow-lg ring-2 ring-orange-400/70 transition hover:-translate-y-0.5 hover:shadow-xl hover:ring-orange-500"
             >
+              <Image
+                src="/logos/qrdi.png"
+                alt="QRDI logo"
+                width={458}
+                height={502}
+                className="h-5 w-auto shrink-0"
+              />
               <span className="sm:hidden">Funded by QRDI</span>
               <span className="hidden sm:inline">
                 Funded by the Qatar Research, Development and Innovation Council
                 (QRDI)
+              </span>
+              <span aria-hidden="true" className="shrink-0 text-orange-500">
+                ↗
               </span>
             </a>
           </div>

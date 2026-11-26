@@ -296,7 +296,7 @@ export const partners = [
   {
     name: "QRDI",
     description:
-      "Qatar Research, Development and Innovation Council — funding this project under the Academic Research Grant ARG01-0527-230356.",
+      "Funding this project under the Academic Research Grant ARG01-0527-230356.",
     image: "/logos/qrdi.png",
     href: "https://www.qrdi.org.qa/",
   },

@@ -20,6 +20,18 @@ export function HeroSection() {
             <p className="inline-flex rounded-full border border-white/30 bg-white/10 px-4 py-1 text-sm font-medium text-white backdrop-blur">
               ARG01-0527-230356
             </p>
+            <a
+              href="https://www.qrdi.org.qa/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex max-w-full rounded-full border border-white/30 bg-white/10 px-4 py-1 text-sm font-medium text-white backdrop-blur transition hover:bg-white/20"
+            >
+              <span className="sm:hidden">Funded by QRDI</span>
+              <span className="hidden sm:inline">
+                Funded by the Qatar Research, Development and Innovation Council
+                (QRDI)
+              </span>
+            </a>
           </div>
 
           <h1 className="mt-6 text-4xl font-bold tracking-tight text-white md:text-6xl">
